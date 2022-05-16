@@ -1,0 +1,16 @@
+package day02;
+
+import java.util.Scanner;
+
+public class Quiz3 {public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	int num1,num2;
+	System.out.println("두 수를 입력해주세요 : ");
+	int num1 = input.nextInt();
+	int num2 = input.nextInt();
+	System.out.println(num1 / num2);
+	
+	String s = (num1%2==0)?"짝수" : "홀수";
+}
+
+}
